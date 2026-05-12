@@ -1,4 +1,4 @@
-# syriasilicon.com
+# syriasilicon.com 
 
 The public website for Syria Silicon, a Syrian industrial silica sand project.
 
