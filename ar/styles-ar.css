@@ -1,0 +1,269 @@
+/* =========================================================
+   Syria Silicon — Arabic RTL Stylesheet
+   Overrides loaded after the main stylesheet for the /ar/ pages.
+   ========================================================= */
+
+/* Base Arabic typography — Saudi business register */
+.rtl-body {
+  font-family: 'Noto Naskh Arabic', 'Cairo', 'Tajawal', 'Segoe UI', Tahoma, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.rtl-body * {
+  text-align: inherit;
+}
+
+/* Headings use Noto Sans Arabic (modern, formal, business-appropriate) */
+.rtl-body .hero-title,
+.rtl-body .section-title,
+.rtl-body .pathway-title,
+.rtl-body .lockin-title,
+.rtl-body .calculator-title,
+.rtl-body .calc-headline,
+.rtl-body .aside-title,
+.rtl-body .partnership-title,
+.rtl-body .team-name,
+.rtl-body .pathway-figure,
+.rtl-body .pathway-combined-figure,
+.rtl-body .raising-figure,
+.rtl-body .stat-figure,
+.rtl-body .fact-figure,
+.rtl-body .contact-info-title {
+  font-family: 'Noto Sans Arabic', 'Cairo', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.3;
+}
+
+.rtl-body .hero-title {
+  line-height: 1.25;
+}
+
+/* Hero adjustments for RTL */
+.rtl-body .hero-content {
+  text-align: right;
+}
+
+.rtl-body .hero-eyebrow {
+  text-align: right;
+}
+
+.rtl-body .hero-eyebrow::before {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}
+
+/* Brand mark — Arabic letter renders differently */
+.rtl-body .brand-mark {
+  font-family: 'Noto Sans Arabic', 'Cairo', sans-serif;
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.rtl-body .brand-name {
+  font-family: 'Noto Sans Arabic', 'Cairo', sans-serif;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Nav alignment */
+.rtl-body .nav-links {
+  flex-direction: row-reverse;
+}
+
+.rtl-body .nav-links a {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.rtl-body .nav-lang {
+  margin-left: 0;
+  margin-right: 0.6rem;
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+/* Buttons */
+.rtl-body .btn {
+  letter-spacing: 0.05em;
+}
+
+/* Hero actions */
+.rtl-body .hero-actions {
+  justify-content: flex-start;
+}
+
+/* Section eyebrows */
+.rtl-body .eyebrow,
+.rtl-body .pathway-tag,
+.rtl-body .lockin-tag,
+.rtl-body .raising-label,
+.rtl-body .stat-label,
+.rtl-body .fact-label,
+.rtl-body .pathway-combined-label,
+.rtl-body .calculator-eyebrow,
+.rtl-body .calc-tab,
+.rtl-body .contact-method-label,
+.rtl-body .team-role,
+.rtl-body .team-recruiting-label {
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 0.05em;
+}
+
+/* The dash decoration before eyebrows — flip side */
+.rtl-body .eyebrow::before {
+  margin-right: 0;
+  margin-left: 0.75rem;
+}
+
+/* Phase 1 at a glance dl */
+.rtl-body .aside-list dt {
+  text-align: right;
+}
+
+.rtl-body .aside-list dd {
+  text-align: right;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Resource stat blocks */
+.rtl-body .stat-block,
+.rtl-body .fact {
+  text-align: right;
+}
+
+.rtl-body .stat-figure,
+.rtl-body .fact-figure {
+  direction: ltr;
+  display: inline-block;
+}
+
+.rtl-body .pathway-figure,
+.rtl-body .raising-figure {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+
+/* Drop cap — disable on RTL because Arabic doesn't have it */
+.rtl-body .two-col-text p:first-letter {
+  font-size: inherit;
+  float: none;
+  margin: 0;
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* Pathway arrow — flip direction (RTL reads right to left) */
+.rtl-body .pathway-arrow,
+.rtl-body .raising-arrow {
+  transform: scaleX(-1);
+}
+
+/* Calculator outcomes — bullet markers swap side */
+.rtl-body .calc-outcomes li {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+
+.rtl-body .calc-outcomes li::before {
+  left: auto;
+  right: 0;
+}
+
+/* Contact form text alignment */
+.rtl-body .form-row label {
+  text-align: right;
+}
+
+.rtl-body .form-row input,
+.rtl-body .form-row select,
+.rtl-body .form-row textarea {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Phone field stays LTR even in RTL context */
+.rtl-body .contact-method-value[href^="tel:"],
+.rtl-body input[type="email"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Footer */
+.rtl-body .footer-top {
+  flex-direction: row-reverse;
+}
+
+.rtl-body .footer-nav {
+  flex-direction: row-reverse;
+}
+
+/* Section title underline decorations — flip */
+.rtl-body .section-head::after {
+  left: auto;
+  right: 0;
+}
+
+/* Pathway combined callout */
+.rtl-body .pathway-combined {
+  text-align: center;
+}
+
+/* Recruiting card label */
+.rtl-body .team-recruiting-label {
+  text-align: right;
+}
+
+/* Body type adjustments — Arabic needs slightly more line-height */
+.rtl-body p,
+.rtl-body .pathway-body,
+.rtl-body .lockin-body,
+.rtl-body .team-bio,
+.rtl-body .calc-outcomes li,
+.rtl-body .hero-lede,
+.rtl-body .pathway-combined-body,
+.rtl-body .contact-note,
+.rtl-body .footer-legal,
+.rtl-body .calculator-disclaimer {
+  line-height: 1.85;
+}
+
+/* Number characters in Arabic context should stay LTR */
+.rtl-body .raising-figure,
+.rtl-body .pathway-figure,
+.rtl-body .pathway-combined-figure,
+.rtl-body .stat-figure,
+.rtl-body .fact-figure {
+  unicode-bidi: plaintext;
+  direction: ltr;
+}
+
+/* Make the digit-containing figures display as inline-block + LTR */
+.rtl-body .raising-figure {
+  display: inline-block;
+  direction: ltr;
+}
+
+/* Adjust hero title for Arabic — usually longer in vertical space */
+.rtl-body .hero-title {
+  font-size: clamp(2.4rem, 4.5vw, 4.2rem);
+}
+
+/* The eyebrow line before text — needs flipping */
+.rtl-body .eyebrow-light::before {
+  background: var(--gold);
+}
+
+/* Mobile nav direction */
+@media (max-width: 768px) {
+  .rtl-body .nav-mobile a {
+    text-align: right;
+  }
+  .rtl-body .nav-mobile-toggle {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
