@@ -1,136 +1,187 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="vc-title">
-  <title id="vc-title">Syria Silicon value chain from deposit to end markets</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 960" role="img" aria-label="Syria Silicon value chain: from the Al-Qaryatayn deposit through three sequential stages to washed industrial silica, glass-grade silica, and high-purity quartz, with the USD 105M total capital structure.">
+  <title>Syria Silicon · Value Chain · Three-Stage Pathway</title>
+  <desc>The Al-Qaryatayn deposit feeds a Hassia wash plant in Stage 1 producing washed industrial silica for Syrian construction. Stage 2 adds acid leach and magnetic separation to produce 99.5%+ glass-grade silica for international export. Stage 3 adds thermal calcination to produce 6N+ high-purity quartz for solar and semiconductor markets. Total commitment envelope USD 105M staged across approximately seven years.</desc>
 
-  <defs>
-    <linearGradient id="bg-grad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0B2545"/>
-      <stop offset="100%" stop-color="#13315C"/>
-    </linearGradient>
-    <linearGradient id="gold-grad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#A89569"/>
-      <stop offset="100%" stop-color="#D4C4A0"/>
-    </linearGradient>
-    <marker id="arrow" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
-      <polygon points="0 0, 14 7, 0 14" fill="#A89569"/>
-    </marker>
-    <marker id="arrow-faded" markerWidth="14" markerHeight="14" refX="11" refY="7" orient="auto">
-      <polygon points="0 0, 14 7, 0 14" fill="#A89569" fill-opacity="0.55"/>
-    </marker>
-  </defs>
+  <!-- BACKGROUND -->
+  <rect width="1600" height="960" fill="#0B2545"/>
 
-  <!-- Background -->
-  <rect width="1400" height="600" fill="url(#bg-grad)"/>
+  <!-- subtle decorative top rule -->
+  <line x1="60" y1="60" x2="1540" y2="60" stroke="#A89569" stroke-width="0.5" opacity="0.35"/>
 
-  <!-- Title -->
-  <text x="700" y="55" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="500" fill="#FFFFFF" letter-spacing="0.5">
-    From the deposit to global markets
-  </text>
-  <text x="700" y="85" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#A89569" letter-spacing="2" font-weight="500">
-    SYRIA SILICON · VALUE CHAIN
-  </text>
+  <!-- TITLE BLOCK -->
+  <text x="800" y="100" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="36" font-style="italic" font-weight="500" letter-spacing="0.5">From the deposit to global markets</text>
+  <text x="800" y="128" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="600" letter-spacing="4">SYRIA SILICON · VALUE CHAIN</text>
 
-  <!-- Layer label: PHASE 1 -->
-  <text x="80" y="180" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="2.5" font-weight="600">PHASE 1 · NOW</text>
-  <line x1="80" y1="190" x2="700" y2="190" stroke="#A89569" stroke-width="1" stroke-opacity="0.4"/>
-
-  <!-- Stage 1: Deposit -->
-  <g transform="translate(80, 210)">
-    <rect width="170" height="130" rx="4" fill="#1A3A5F" stroke="#A89569" stroke-width="1"/>
-    <text x="85" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5" font-weight="600">DEPOSIT</text>
-    <text x="85" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="500" fill="#FFFFFF">Al-Qaryatayn</text>
-    <text x="85" y="92" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#D4C4A0">Homs, Syria</text>
-    <text x="85" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7">~100 Mt indicated</text>
+  <!-- DEPOSIT (anchor, leftmost) -->
+  <g>
+    <rect x="80" y="200" width="200" height="160" fill="none" stroke="#A89569" stroke-width="1.5"/>
+    <text x="180" y="232" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="2.5">DEPOSIT</text>
+    <text x="180" y="276" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="26" font-weight="500" font-style="italic">Al-Qaryatayn</text>
+    <text x="180" y="306" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="12">Homs, Syria</text>
+    <text x="180" y="328" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="11" font-style="italic">~100 Mt indicated · 99.4% best</text>
   </g>
 
-  <!-- Arrow 1 -->
-  <line x1="260" y1="275" x2="295" y2="275" stroke="#A89569" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- ============================ -->
+  <!-- STAGE 1 · WATER WASH         -->
+  <!-- ============================ -->
+  <g>
+    <!-- track label -->
+    <line x1="320" y1="200" x2="800" y2="200" stroke="#A89569" stroke-width="0.5" opacity="0.45"/>
+    <text x="560" y="190" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="3.5">STAGE 1 · NOW · YEARS 1–3</text>
 
-  <!-- Stage 2: Wash plant -->
-  <g transform="translate(305, 210)">
-    <rect width="170" height="130" rx="4" fill="#1A3A5F" stroke="#A89569" stroke-width="1"/>
-    <text x="85" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5" font-weight="600">WASH PLANT</text>
-    <text x="85" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="500" fill="#FFFFFF">Hassia</text>
-    <text x="85" y="92" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#D4C4A0">Industrial zone</text>
-    <text x="85" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7">USD 25M Phase 1</text>
+    <!-- arrow from deposit -->
+    <line x1="280" y1="280" x2="335" y2="280" stroke="#A89569" stroke-width="1.5"/>
+    <polygon points="335,280 325,275 325,285" fill="#A89569"/>
+
+    <!-- WASH PLANT box -->
+    <rect x="340" y="220" width="190" height="120" fill="none" stroke="#A89569" stroke-width="1"/>
+    <text x="435" y="248" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">WASH PLANT</text>
+    <text x="435" y="280" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="500" font-style="italic">Hassia</text>
+    <text x="435" y="302" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">Industrial zone</text>
+    <text x="435" y="322" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">USD 25M · Stage 1</text>
+
+    <!-- arrow -->
+    <line x1="530" y1="280" x2="585" y2="280" stroke="#A89569" stroke-width="1.5"/>
+    <polygon points="585,280 575,275 575,285" fill="#A89569"/>
+
+    <!-- PRODUCT 1 -->
+    <rect x="590" y="220" width="200" height="120" fill="none" stroke="#A89569" stroke-width="1"/>
+    <text x="690" y="248" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">PRODUCT</text>
+    <text x="690" y="280" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="500" font-style="italic">Washed industrial silica</text>
+    <text x="690" y="302" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">One-tonne bagged · dried &amp; graded</text>
+    <text x="690" y="322" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">From Q3 2027</text>
+
+    <!-- arrow to market -->
+    <line x1="790" y1="280" x2="845" y2="280" stroke="#A89569" stroke-width="1.5"/>
+    <polygon points="845,280 835,275 835,285" fill="#A89569"/>
+
+    <!-- MARKET 1 -->
+    <rect x="850" y="220" width="200" height="120" fill="none" stroke="#A89569" stroke-width="1"/>
+    <text x="950" y="248" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">MARKET</text>
+    <text x="950" y="280" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="500" font-style="italic">Construction</text>
+    <text x="950" y="302" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">Syrian reconstruction sector</text>
+    <text x="950" y="322" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">Domestic</text>
   </g>
 
-  <!-- Arrow 2 -->
-  <line x1="485" y1="275" x2="520" y2="275" stroke="#A89569" stroke-width="2" marker-end="url(#arrow)"/>
+  <!-- vertical resource flow connector S1 → S2 -->
+  <line x1="690" y1="340" x2="690" y2="470" stroke="#A89569" stroke-width="1" stroke-dasharray="3,4" opacity="0.6"/>
+  <polygon points="690,470 685,460 695,460" fill="#A89569" opacity="0.7"/>
+  <text x="710" y="412" fill="rgba(168,149,105,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">Same resource,</text>
+  <text x="710" y="426" fill="rgba(168,149,105,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">further processing</text>
 
-  <!-- Stage 3: 3N+ Silica -->
-  <g transform="translate(530, 210)">
-    <rect width="170" height="130" rx="4" fill="#1A3A5F" stroke="#A89569" stroke-width="1"/>
-    <text x="85" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5" font-weight="600">PRODUCT</text>
-    <text x="85" y="68" text-anchor="middle" font-family="Georgia, serif" font-size="20" font-weight="500" fill="#FFFFFF">3N+ silica</text>
-    <text x="85" y="92" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#D4C4A0">Washed &amp; graded</text>
-    <text x="85" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7">Q3 2026 first output</text>
+  <!-- ============================ -->
+  <!-- STAGE 2 · ACID LEACH         -->
+  <!-- ============================ -->
+  <g>
+    <line x1="320" y1="495" x2="800" y2="495" stroke="#A89569" stroke-width="0.5" opacity="0.45"/>
+    <text x="560" y="485" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="3.5">STAGE 2 · CONDITIONS-GATED · YEARS 4–6</text>
+
+    <!-- BENEFICIATION box -->
+    <rect x="340" y="515" width="190" height="120" fill="none" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="435" y="543" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">BENEFICIATION</text>
+    <text x="435" y="575" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="500" font-style="italic">Acid leach</text>
+    <text x="435" y="595" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">+ magnetic separation</text>
+    <text x="435" y="617" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">USD 25M · Stage 2</text>
+
+    <line x1="530" y1="575" x2="585" y2="575" stroke="#A89569" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="585,575 575,570 575,580" fill="#A89569"/>
+
+    <!-- PRODUCT 2 -->
+    <rect x="590" y="515" width="200" height="120" fill="none" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="690" y="543" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">PRODUCT</text>
+    <text x="690" y="575" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="500" font-style="italic">3N+ glass-grade silica</text>
+    <text x="690" y="597" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">99.5%+ purity, low iron</text>
+    <text x="690" y="617" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">Targeted, subject to met. confirmation</text>
+
+    <line x1="790" y1="575" x2="845" y2="575" stroke="#A89569" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="845,575 835,570 835,580" fill="#A89569"/>
+
+    <!-- MARKET 2 -->
+    <rect x="850" y="515" width="200" height="120" fill="none" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="950" y="543" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">MARKET</text>
+    <text x="950" y="575" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="500" font-style="italic">Glass &amp; foundry</text>
+    <text x="950" y="597" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">Container · flat · solar glass</text>
+    <text x="950" y="617" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">International export</text>
   </g>
 
-  <!-- Branch to Phase 1 markets (down/right) -->
-  <path d="M 700 275 L 770 275" stroke="#A89569" stroke-width="2" marker-end="url(#arrow)" fill="none"/>
+  <!-- vertical resource flow connector S2 → S3 -->
+  <line x1="690" y1="635" x2="690" y2="765" stroke="#A89569" stroke-width="1" stroke-dasharray="3,4" opacity="0.6"/>
+  <polygon points="690,765 685,755 695,755" fill="#A89569" opacity="0.7"/>
+  <text x="710" y="707" fill="rgba(168,149,105,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">Same resource,</text>
+  <text x="710" y="721" fill="rgba(168,149,105,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">further processing</text>
 
-  <!-- Phase 1 Markets -->
-  <g transform="translate(780, 210)">
-    <rect width="200" height="130" rx="4" fill="#0B2545" stroke="#D4C4A0" stroke-width="1.5"/>
-    <text x="100" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5" font-weight="600">PHASE 1 MARKETS</text>
-    <text x="100" y="68" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="500">Glass · Foundry</text>
-    <text x="100" y="88" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="500">Construction</text>
-    <text x="100" y="115" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#D4C4A0">Syrian reconstruction · GCC</text>
+  <!-- ============================ -->
+  <!-- STAGE 3 · THERMAL CALCINATION -->
+  <!-- ============================ -->
+  <g>
+    <line x1="320" y1="790" x2="800" y2="790" stroke="#A89569" stroke-width="0.5" opacity="0.45"/>
+    <text x="560" y="780" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="3.5">STAGE 3 · CONDITIONS-GATED · YEAR 7+</text>
+
+    <!-- CALCINATION box -->
+    <rect x="340" y="810" width="190" height="120" fill="none" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="435" y="838" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">CALCINATION</text>
+    <text x="435" y="870" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="22" font-weight="500" font-style="italic">Thermal</text>
+    <text x="435" y="890" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">High-temperature processing</text>
+    <text x="435" y="912" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">USD 55M · Stage 3</text>
+
+    <line x1="530" y1="870" x2="585" y2="870" stroke="#A89569" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="585,870 575,865 575,875" fill="#A89569"/>
+
+    <!-- PRODUCT 3 -->
+    <rect x="590" y="810" width="200" height="120" fill="none" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="690" y="838" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">PRODUCT</text>
+    <text x="690" y="870" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="500" font-style="italic">6N+ high-purity quartz</text>
+    <text x="690" y="892" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">Solar-grade · semiconductor pathway</text>
+    <text x="690" y="912" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">Targeted, subject to met. confirmation</text>
+
+    <line x1="790" y1="870" x2="845" y2="870" stroke="#A89569" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <polygon points="845,870 835,865 835,875" fill="#A89569"/>
+
+    <!-- MARKET 3 -->
+    <rect x="850" y="810" width="200" height="120" fill="none" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="950" y="838" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2">MARKET</text>
+    <text x="950" y="870" text-anchor="middle" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="20" font-weight="500" font-style="italic">Solar &amp; semiconductor</text>
+    <text x="950" y="892" text-anchor="middle" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="11">High-value specialty markets</text>
+    <text x="950" y="912" text-anchor="middle" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">International export</text>
   </g>
 
-  <!-- =========== PHASE 2 LAYER =========== -->
-  <text x="80" y="430" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="2.5" font-weight="600" opacity="0.7">PHASE 2 · CONDITIONS-GATED</text>
-  <line x1="80" y1="440" x2="700" y2="440" stroke="#A89569" stroke-width="1" stroke-opacity="0.25"/>
+  <!-- ============================ -->
+  <!-- CAPITAL STRUCTURE (right rail) -->
+  <!-- ============================ -->
+  <g>
+    <rect x="1130" y="200" width="380" height="730" fill="none" stroke="#A89569" stroke-width="1.5"/>
+    <text x="1320" y="232" text-anchor="middle" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="600" letter-spacing="3">CAPITAL STRUCTURE</text>
 
-  <!-- Connector from Phase 1 product down to Phase 2 -->
-  <path d="M 615 340 L 615 380 L 615 460" stroke="#A89569" stroke-width="2" stroke-opacity="0.55" stroke-dasharray="6,4" marker-end="url(#arrow-faded)" fill="none"/>
-  <text x="635" y="395" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A89569" opacity="0.7" font-style="italic">Same resource,</text>
-  <text x="635" y="408" font-family="Inter, Arial, sans-serif" font-size="10" fill="#A89569" opacity="0.7" font-style="italic">further processing</text>
+    <!-- Stage 1 row -->
+    <text x="1156" y="280" fill="rgba(168,149,105,0.85)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2.5">STAGE 1 · NOW</text>
+    <text x="1156" y="332" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="50" font-weight="500" font-style="italic">USD 25M</text>
+    <text x="1156" y="358" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="13">Wash plant · working capital</text>
+    <line x1="1156" y1="380" x2="1484" y2="380" stroke="#A89569" stroke-width="0.5" opacity="0.35"/>
 
-  <!-- Phase 2: advanced processing -->
-  <g transform="translate(530, 460) " opacity="0.85">
-    <rect width="170" height="110" rx="4" fill="#1A3A5F" stroke="#A89569" stroke-width="1" stroke-dasharray="4,3"/>
-    <text x="85" y="32" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5" font-weight="600">ADVANCED PROCESSING</text>
-    <text x="85" y="58" text-anchor="middle" font-family="Georgia, serif" font-size="18" font-weight="500" fill="#FFFFFF">99.5%+ purity</text>
-    <text x="85" y="78" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" fill="#D4C4A0">Acid leach + magnetic</text>
-    <text x="85" y="98" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7">USD 75M Phase 2</text>
+    <!-- Stage 2 row -->
+    <text x="1156" y="420" fill="rgba(168,149,105,0.85)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2.5">STAGE 2 · CONDITIONS-GATED</text>
+    <text x="1156" y="472" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="50" font-weight="500" font-style="italic">USD 25M</text>
+    <text x="1156" y="498" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="13">Capacity + acid leach circuits</text>
+    <line x1="1156" y1="520" x2="1484" y2="520" stroke="#A89569" stroke-width="0.5" opacity="0.35"/>
+
+    <!-- Stage 3 row -->
+    <text x="1156" y="560" fill="rgba(168,149,105,0.85)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-weight="600" letter-spacing="2.5">STAGE 3 · CONDITIONS-GATED</text>
+    <text x="1156" y="612" fill="#FAF7F2" font-family="'Cormorant Garamond', Georgia, serif" font-size="50" font-weight="500" font-style="italic">USD 55M</text>
+    <text x="1156" y="638" fill="rgba(250,247,242,0.7)" font-family="'Inter', system-ui, sans-serif" font-size="13">Thermal calcination build-out</text>
+    <line x1="1156" y1="660" x2="1484" y2="660" stroke="#A89569" stroke-width="1" opacity="0.6"/>
+
+    <!-- Total -->
+    <text x="1156" y="710" fill="#A89569" font-family="'Inter', system-ui, sans-serif" font-size="11" font-weight="700" letter-spacing="3">TOTAL COMMITMENT ENVELOPE</text>
+    <text x="1156" y="780" fill="#A89569" font-family="'Cormorant Garamond', Georgia, serif" font-size="64" font-weight="500" font-style="italic">USD 105M</text>
+    <text x="1156" y="810" fill="rgba(250,247,242,0.75)" font-family="'Inter', system-ui, sans-serif" font-size="13">Staged across approximately seven years</text>
+    <text x="1156" y="832" fill="rgba(250,247,242,0.55)" font-family="'Inter', system-ui, sans-serif" font-size="11" font-style="italic">Each gate validates the next</text>
+
+    <!-- footer note inside box -->
+    <text x="1156" y="888" fill="rgba(250,247,242,0.5)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">Partnership structure — equity, EPC,</text>
+    <text x="1156" y="903" fill="rgba(250,247,242,0.5)" font-family="'Inter', system-ui, sans-serif" font-size="10" font-style="italic">offtake, JV, BOOT — by mutual agreement.</text>
   </g>
 
-  <!-- Arrow to Phase 2 markets -->
-  <line x1="710" y1="515" x2="770" y2="515" stroke="#A89569" stroke-width="2" stroke-opacity="0.7" marker-end="url(#arrow-faded)" opacity="0.9"/>
-
-  <!-- Phase 2 markets -->
-  <g transform="translate(780, 460)" opacity="0.9">
-    <rect width="200" height="110" rx="4" fill="#0B2545" stroke="#D4C4A0" stroke-width="1.5" stroke-dasharray="4,3"/>
-    <text x="100" y="32" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5" font-weight="600">PHASE 2 MARKETS</text>
-    <text x="100" y="58" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="500">Microsilica · Refractories</text>
-    <text x="100" y="78" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="13" fill="#FFFFFF" font-weight="500">Solar-grade pathway</text>
-    <text x="100" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#D4C4A0">Global high-value</text>
-  </g>
-
-  <!-- Right side: Investment block -->
-  <g transform="translate(1020, 210)">
-    <rect width="320" height="360" rx="6" fill="#1A3A5F" stroke="#A89569" stroke-width="2"/>
-    <text x="160" y="40" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="2" font-weight="600">CAPITAL STRUCTURE</text>
-    <line x1="40" y1="55" x2="280" y2="55" stroke="#A89569" stroke-opacity="0.3"/>
-
-    <!-- Phase 1 line -->
-    <text x="40" y="95" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5">PHASE 1 · NOW</text>
-    <text x="40" y="130" font-family="Georgia, serif" font-size="32" font-weight="500" fill="#FFFFFF">USD 25M</text>
-    <text x="40" y="153" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7">Wash plant + working capital</text>
-
-    <line x1="40" y1="175" x2="280" y2="175" stroke="#A89569" stroke-opacity="0.3"/>
-
-    <!-- Phase 2 line -->
-    <text x="40" y="205" font-family="Inter, Arial, sans-serif" font-size="11" fill="#A89569" letter-spacing="1.5">PHASE 2 · CONDITIONS-GATED</text>
-    <text x="40" y="240" font-family="Georgia, serif" font-size="32" font-weight="500" fill="#FFFFFF">USD 75M</text>
-    <text x="40" y="263" font-family="Inter, Arial, sans-serif" font-size="11" fill="#FFFFFF" opacity="0.7">Advanced processing build-out</text>
-
-    <line x1="40" y1="285" x2="280" y2="285" stroke="#A89569" stroke-opacity="0.5"/>
-
-    <!-- Total line -->
-    <text x="40" y="315" font-family="Inter, Arial, sans-serif" font-size="11" fill="#D4C4A0" letter-spacing="1.5" font-weight="600">FULL PROJECT</text>
-    <text x="40" y="345" font-family="Georgia, serif" font-size="32" font-weight="600" fill="#D4C4A0">USD 100M</text>
-  </g>
-
+  <!-- bottom decorative rule -->
+  <line x1="60" y1="60" x2="60" y2="940" stroke="#A89569" stroke-width="0.5" opacity="0.2"/>
+  <line x1="1540" y1="60" x2="1540" y2="940" stroke="#A89569" stroke-width="0.5" opacity="0.2"/>
 </svg>
