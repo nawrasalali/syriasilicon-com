@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Silicon City — Access | Syria Silicon</title>
+<link rel="stylesheet" href="/styles.css">
+<style>
+.gate-wrap{min-height:80vh;display:flex;align-items:center;justify-content:center;padding:70px 24px;background:#f7f5f0}
+.gate-card{max-width:530px;width:100%;background:#fff;border:1px solid #e3ddd2;border-top:3px solid #A89569;padding:52px 42px;text-align:center;box-shadow:0 2px 18px rgba(31,58,95,.06)}
+.gate-brand{font-size:.78rem;letter-spacing:.32em;color:#A89569;font-weight:600;margin-bottom:14px}
+.gate-card h1{font-size:1.65rem;margin:0 0 10px;color:#1F3A5F}
+.gate-sub{color:#666;font-size:.93rem;margin:3px 0}
+.gate-input{width:100%;box-sizing:border-box;padding:14px;font-size:1.25rem;text-align:center;letter-spacing:.45em;border:1px solid #ccc;margin:20px 0 10px}
+.gate-btn{width:100%;padding:14px;background:#1F3A5F;color:#fff;border:none;font-size:.95rem;cursor:pointer;letter-spacing:.1em}
+.gate-btn:hover{background:#2a4d7a}
+.gate-err{color:#a33;font-size:.88rem;min-height:1.3em;margin-top:10px}
+.gate-note{font-size:.84rem;color:#888;margin-top:22px;line-height:1.55}
+.gate-note a{color:#1F3A5F}
+</style>
+</head>
+<body>
+<div class="gate-wrap"><div class="gate-card">
+<div class="gate-brand">SYRIA SILICON</div>
+<h1>Silicon City</h1>
+<p class="gate-sub">Advanced-technology manufacturing city — restricted briefing. Enter access code.</p>
+<p class="gate-sub" lang="ar" dir="rtl">مدينة الصناعات التقنية المتقدّمة — إحاطة مقيّدة. أدخل رمز الدخول.</p>
+<p class="gate-sub" lang="zh">先进技术制造之城 — 受限简报。请输入访问码。</p>
+<input class="gate-input" id="pc" type="password" inputmode="numeric" autocomplete="off" placeholder="•••••" aria-label="Access code">
+<button class="gate-btn" onclick="go()">Enter &nbsp;·&nbsp; دخول &nbsp;·&nbsp; 进入</button>
+<p class="gate-err" id="err"></p>
+<p class="gate-note">Access is provided to qualified parties under confidentiality.<br>Request access: <a href="mailto:info@syriasilicon.com">info@syriasilicon.com</a></p>
+<p class="gate-note"><a href="/">&larr; syriasilicon.com</a></p>
+</div></div>
+<script>
+const H='c507a68f3093e885765257ed3f176c757aaf62bb4cbc2ef94b2e7da3406d9676';
+async function go(){
+ const v=document.getElementById('pc').value.trim();
+ if(!v)return;
+ const h=[...new Uint8Array(await crypto.subtle.digest('SHA-256',new TextEncoder().encode(v)))].map(b=>b.toString(16).padStart(2,'0')).join('');
+ if(h===H){location.href='/vault/'+h.slice(0,12)+'/';}
+ else{document.getElementById('err').textContent='Incorrect code · رمز غير صحيح · 访问码错误';}
+}
+document.getElementById('pc').addEventListener('keydown',e=>{if(e.key==='Enter')go()});
+</script>
+</body></html>

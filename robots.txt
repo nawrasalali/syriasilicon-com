@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /vault/
+Allow: /
+
+Sitemap: https://www.syriasilicon.com/sitemap.xml
